@@ -1,0 +1,12 @@
+{
+  "model": "EfficientNetB3",
+  "img_size": 224,
+  "num_classes": 43,
+  "accuracy": 88.9,
+  "reload_acc": 80.1,
+  "preprocessing": "efficientnet.preprocess_input",
+  "formula": "Same as MobileNetV2: (pixel/127.5) - 1.0",
+  "h5_model": "traffic_sign_efficientnet.h5",
+  "tflite_model": "traffic_sign_efficientnet.tflite",
+  "platform": "Raspberry Pi 5"
+}

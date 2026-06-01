@@ -1,0 +1,26 @@
+# Python Virtual Environments (Crucial to ignore as it contains platform-specific packages)
+ML/venv/
+ML/.venv/
+venv/
+.venv/
+env/
+.env/
+
+# Python Cache & Compiled Files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Vivado FPGA Project Temporary & Output Directories
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/vivado*.log
+**/vivado*.jou
+**/hd_visual/
+
+# OS Specific files
+.DS_Store
+Thumbs.db

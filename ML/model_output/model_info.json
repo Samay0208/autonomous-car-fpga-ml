@@ -1,0 +1,18 @@
+{
+  "phase1_accuracy": 35.3,
+  "phase2_accuracy": 84.9,
+  "reloaded_accuracy": 75.4,
+  "tflite_f16_acc": 85.3,
+  "tflite_int8_acc": 87.0,
+  "float16_kb": 5041,
+  "int8_kb": 2993,
+  "img_size": 96,
+  "num_classes": 43,
+  "preprocessing": {
+    "formula": "pixel = (raw / 127.5) - 1.0",
+    "range": "[-1.0, 1.0]",
+    "esp32": "float p = ((float)raw_pixel / 127.5f) - 1.0f;"
+  },
+  "use_on_esp32_s3": "model_final_f16.tflite",
+  "use_on_esp32_cam": "model_final_int8.tflite"
+}
